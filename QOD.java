@@ -5,7 +5,7 @@ public class QOD {
   Device c1 = new Computer();
   //Tablet t1 = (Tablet) c1;
   Tablet t1 = new Tablet();
-  System.out.println("\t\t");
+  System.out.println();
   t1.powerOn();
  }
 }
