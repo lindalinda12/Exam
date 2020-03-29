@@ -5,8 +5,13 @@ public class QOD {
   Device c1 = new Computer();
   //Tablet t1 = (Tablet) c1;
   Tablet t1 = new Tablet();
+ // Device t2 = (Computer) new Device();
+ // Computer t2 = (Computer) new Device();
   System.out.println();
   t1.powerOn();
+
+  System.out.println();
+ // t2.powerOn();
  }
 }
 class Device { 
